@@ -26,24 +26,3 @@ Inheritance
 Interfaces
 Collections
 Separation of concerns (MVC)
-📁 Project Structure
-src/
- ├── main/
- │   ├── java/br/feevale/
- │   │   ├── model/ (Pedido, Cliente, Item, etc.)
- │   │   ├── view/ (JavaFX Controllers)
- │   │   └── App.java
- │   └── resources/
- │       └── view/ (FXML screens)
-▶️ How to Run
-Requirements:
-Java 11+
-Maven
-Steps:
-Clone the repository:
-git clone https://github.com/your-username/your-repository.git
-Navigate to the project folder:
-cd your-repository
-Run the project:
-mvn clean install
-mvn javafx:run
